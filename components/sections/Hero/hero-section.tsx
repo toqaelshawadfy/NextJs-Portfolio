@@ -54,8 +54,8 @@ export function HeroSection() {
       />
 
       {/* Floating Geometric Shapes */}
-      {/* <div className="absolute inset-0 overflow-hidden">
-        {/* <motion.div
+      <div className="absolute inset-0 overflow-hidden">
+        <motion.div
           animate={{
             y: [0, -30, 0],
             rotate: [0, 180, 360],
@@ -66,8 +66,8 @@ export function HeroSection() {
             ease: 'linear',
           }}
           className="absolute top-20 left-10 w-20 h-20 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full opacity-20 blur-xl"
-        /> */}
-        {/* <motion.div
+        /> 
+         <motion.div
           animate={{
             y: [0, 40, 0],
             rotate: [0, -180, -360],
@@ -78,8 +78,8 @@ export function HeroSection() {
             ease: 'linear',
           }}
           className="absolute bottom-20 right-10 w-32 h-32 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full opacity-20 blur-xl"
-        /> */}
-        {/* <motion.div
+        /> 
+        <motion.div
           animate={{
             x: [0, 50, 0],
             y: [0, -20, 0],
@@ -91,7 +91,7 @@ export function HeroSection() {
           }}
           className="absolute top-1/2 right-1/4 w-16 h-16 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-lg opacity-30 blur-lg"
         /> 
-      </div> */}
+      </div> 
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center pt-14">

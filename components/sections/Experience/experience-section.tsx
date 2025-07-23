@@ -82,7 +82,7 @@ export function ExperienceSection() {
 
               return (
                 <motion.div
-                  key={internship.title}
+                  key={ `${internship.title}-${ index}`}
                   ref={ref}
                   initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
                   animate={inView ? { opacity: 1, x: 0 } : {}}

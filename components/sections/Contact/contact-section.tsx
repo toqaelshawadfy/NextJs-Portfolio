@@ -95,7 +95,7 @@ export function ContactSection() {
   }
 
   return (
-    <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-900/50">
+    <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-900/50 overflow-hidden">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 50 }}

@@ -57,7 +57,7 @@ export function SkillsSection() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
-              key={category.title}
+              key={ `${category.title}-${categoryIndex}`}
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}

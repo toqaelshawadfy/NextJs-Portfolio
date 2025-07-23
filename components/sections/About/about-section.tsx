@@ -35,7 +35,7 @@ const technologies = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-20 bg-gray-50 dark:bg-gray-900/50">
+    <section id="about" className="py-20 bg-gray-50 dark:bg-gray-900/50 overflow-hidden">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -84,7 +84,7 @@ export function AboutSection() {
               <div className="flex flex-wrap gap-2">
                 {technologies.map((tech, index) => (
                   <motion.div
-                    key={tech}
+                    key={`${tech }-${ index}`}
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}

@@ -15,11 +15,11 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <AboutSection />
-      <SkillsSection />
+       <SkillsSection />
       <ExperienceSection />
-      <ProjectsSection />
+       <ProjectsSection />
       <ContactSection />
-      <ScrollToTop />
+      <ScrollToTop /> 
     </main>
   );
 }
